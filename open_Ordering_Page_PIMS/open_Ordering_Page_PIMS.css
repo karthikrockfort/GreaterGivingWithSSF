@@ -1,0 +1,10 @@
+.heyperlink{
+ cursor: pointer;   
+ text-decoration: underline;  
+ color: rgb(153, 153, 212);   
+}
+
+.wrapText{ 
+    word-wrap: break-word;
+    word-break: break-all; 
+}
