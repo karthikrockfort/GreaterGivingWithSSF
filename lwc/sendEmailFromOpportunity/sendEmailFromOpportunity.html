@@ -1,0 +1,18 @@
+<template>
+	<lightning-combobox name="progress" value={value} placeholder="Select Template" 
+    options={typeOptions} onchange={handleChange}> </lightning-combobox>
+	</br>
+	<!--For displaying the related contacts-->
+	
+        <lightning-combobox
+            name="contacts"
+            label="Related Contacts"
+            placeholder="Choose Contact"
+            value={value}
+            onchange={handleContactChange}
+            options={relatedContactOptions} >
+        </lightning-combobox>
+		<br>
+	<lightning-button variant="brand" label="Send Email" title="Send Email" 
+    onclick={handleButtonClick} class="slds-align_absolute-center slds-m-left_x-small"></lightning-button>
+</template>
